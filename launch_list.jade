@@ -1,0 +1,146 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    title JS Bin
+
+    script(src='http://static.scripting.com/github/bootstrap2/js/jquery.js')
+
+    link(href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css', rel='stylesheet')
+    link(href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css', rel='stylesheet')
+    script(src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js')
+    link(href='launch_list.css', rel='stylesheet')
+  body
+
+    #myModal.modal.hide.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+      .modal-body
+        img(src='http://launchlist.net/public/art/launchlist-tour.jpg')
+
+
+    .wrap
+      nav
+        .logo
+          h1 launchlist pro
+            a(href='')
+        ul.nav.nav-pills.pull-right
+          li.active
+            a(href='#') Home
+          li
+            a(href='#') Tour
+          li
+            a(href='#') Sign-up
+      .dropdown.btn-group
+          a.btn.dropdown-toggle(data-toggle='dropdown', href='#')
+              i.icon-reorder
+              span.caret
+            ul.dropdown-menu
+              li.active
+                a(href='#') Home
+              li
+                a(href='#') Tour
+              li
+                a(href='#') Sign-up                
+      .start
+        .row-fluid
+          .span12
+            .span6
+              h1 
+                |Pre-launch website testing 
+                #blue made efficient. 
+                #accent (And a little bit fun)
+
+              p Launchlist helps web designers and developers check their work before exposing it to the world at large.
+
+              p
+                a.btn.btn-primary.btn-large
+                  |See Plans &amp; Pricing.
+                  br 
+                  |Free for 30 days, cancel anytime. 
+
+              p
+                a(href='') Or use the lite version (always free)
+            .span6 
+      .logo#centered
+      .container-fluid
+        .row-fluid
+          .span12
+            .span3
+
+              h3
+                i.icon-check.icon-2x
+                | Launch websites 
+                #white with confidence
+              p
+                | Step up your quality control and ensure all aspects of your websites are complete before exposing them to the world at large. Create your own checklist templates and test your projects before launch.
+            .span3
+              h3
+                i.icon-edit.icon-2x
+                #white Create
+                |, 
+                span#white Save
+                |, 
+                span#white Edit 
+                |&amp; 
+                span#white Archive
+              p
+                | Create new checklists, update them as you progress and archive them when your site is launched. All checklists are saved in your account and you'll be able to update and refer back to them at any time.
+            .span3
+              h3 
+                i.icon-list-alt.icon-2x
+                |Define your own 
+                span#white templates
+              p
+                | From web apps to brochure sites or even email newsletters - create your own individual checklist templates for all your different projects. We've even included some premade templates to get you started.
+            .span3
+              h3 
+                i.icon-user.icon-2x
+                |Combine &amp; 
+                span#white Collaborate
+              p
+                | Test your websites in a team and send reports to all those involved. We've included multi user accounts so that managing website checklists, no matter how many people are involved, is dead simple.
+
+
+      .container-fluid#modals
+        .row-fluid
+          .span12
+            .span3
+              .media
+
+                a.thumbnail.click.pull-left(href='#myModal', data-toggle='modal')
+                  img(src='http://cdn.alternativeto.net/s/44857122-a78d-df11-98db-0022190f5762_2_thumb.jpg', width='70', height='70', alt='product showcase')
+ 
+                .media-body
+                  h4.media-heading Launchpad
+                  p Login and view your active lists
+            .span3
+              .media
+                a.thumbnail.click.pull-left(href='#myModal', data-toggle='modal')
+                  img(src='http://cdn.alternativeto.net/s/44857122-a78d-df11-98db-0022190f5762_1_thumb.jpg', width='70', height='70', alt='product showcase')
+
+                .media-body
+                  h4.media-heading Launchlist
+                  p Launch websites with confidence
+            .span3
+              .media
+                a.thumbnail.click.pull-left(href='#myModal', data-toggle='modal') 
+                  img(src='http://cdn.alternativeto.net/s/44857122-a78d-df11-98db-0022190f5762_3_thumb.jpg', width='70', height='70', alt='product showcase')                
+                .media-body
+                  h4.media-heading Templates
+                  p Streamline your checklists
+            .span3
+              .media
+                a.thumbnail.click.pull-left(href='#myModal', data-toggle='modal') 
+                  img(src='http://cdn.alternativeto.net/s/44857122-a78d-df11-98db-0022190f5762_1_thumb.jpg', width='70', height='70', alt='product showcase')
+
+                .media-body
+                  h4.media-heading Users
+                  p Work with your whole team
+      .end
+        h1 Try launchlist pro for free for 30 days
+        btn.btn-primary.btn-large.center Let's get launchin' 
+          i.icon-long-arrow-right
+  
+      footer
+        p &copy; All images belong to specfied owners
