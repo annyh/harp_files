@@ -1,0 +1,70 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    link(href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css', rel='stylesheet')
+    link(href='personalPage.css', rel='stylesheet')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js')
+    script(src='personalPage.js')
+
+    title Anny He
+  body
+    section#hello
+      p hello, my name is 
+        span#name anny
+        |.
+      a(href='#work') 
+        i.icon-angle-down.icon-4x
+    section#work
+      #pagewrap
+        .wrapper.grid3
+          h3
+            a(href='#hello') anny.
+          h4
+            a(href='#contact') talk to me
+          article.col
+            a(href='#')
+              img(src='http://placehold.it/400x300', width='400', height='300')
+          article.col
+            a(href='#')
+              img(src='http://placehold.it/400x300', width='400', height='300')
+          article.col
+            a(href='#')
+              img(src='http://placehold.it/400x300', width='400', height='300')
+          article.col
+            a(href='#')
+              img(src='http://placehold.it/400x300', width='400', height='300')
+          article.col
+            a(href='#')
+              img(src='http://placehold.it/400x300', width='400', height='300')
+          article.col
+            a(href='#')
+              img(src='http://placehold.it/400x300', width='400', height='300')              
+        div 
+          a(href='#about')
+            i.icon-angle-down.icon-4x
+    section#about
+      p
+        | Former 
+        a(href='http://beedie.sfu.ca/blog/2011/06/beedie-piper-set-to-take-on-the-world/') bagpiper 
+        | and 
+        a(href='http://www.behance.net/annyhe') artist.
+        span Student by day, programmer at night.
+        span
+          | I also blog
+          a(href='#')  here.
+      a(href='#contact')
+        i.icon-angle-down.icon-4x
+    section#contact
+      p
+        | Talk to me.
+        span annyh@sfu.ca
+      #social
+        a(href='http://www.linkedin.com/in/annyhe')
+          i.icon-linkedin.icon-3x
+        a(href='https://github.com/annyh?tab=repositories')
+          i.icon-github.icon-3x
+        a(href='https://twitter.com/annyhehe')
+          i.icon-twitter.icon-3x
+      a(href='#hello')
+        i.icon-angle-up.icon-4x
